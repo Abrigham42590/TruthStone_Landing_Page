@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service — TruthStone PM</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-primary: #0a0c10;
+    --bg-secondary: #12151c;
+    --accent: #c9a55a;
+    --accent-dim: #a8873e;
+    --text-primary: #e8e4dc;
+    --text-secondary: #9a968e;
+    --text-muted: #5e5b55;
+    --border: rgba(201, 165, 90, 0.1);
+    --border-strong: rgba(201, 165, 90, 0.25);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    -webkit-font-smoothing: antialiased;
+  }
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    opacity: 0.03;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 9999;
+  }
+  nav {
+    position: fixed; top: 0; width: 100%; z-index: 100;
+    padding: 20px 48px;
+    display: flex; align-items: center; justify-content: space-between;
+    backdrop-filter: blur(20px);
+    background: rgba(10, 12, 16, 0.8);
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-logo {
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px; color: var(--accent); letter-spacing: 0.5px;
+    text-decoration: none;
+  }
+  .nav-logo span { color: var(--text-muted); font-weight: 300; }
+  .nav-links { display: flex; gap: 32px; align-items: center; }
+  .nav-links a {
+    color: var(--text-secondary); text-decoration: none;
+    font-size: 14px; font-weight: 400; transition: color 0.3s;
+  }
+  .nav-links a:hover { color: var(--text-primary); }
+
+  .legal-content {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 140px 48px 80px;
+  }
+  .legal-content .section-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px; text-transform: uppercase;
+    letter-spacing: 2.5px; color: var(--accent);
+    margin-bottom: 20px;
+  }
+  .legal-content h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 42px; font-weight: 400;
+    margin-bottom: 12px;
+  }
+  .legal-content .updated {
+    font-size: 14px; color: var(--text-muted);
+    margin-bottom: 48px;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .legal-content h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px; font-weight: 600;
+    margin: 40px 0 16px;
+    color: var(--text-primary);
+  }
+  .legal-content p {
+    font-size: 15px; line-height: 1.8;
+    color: var(--text-secondary); font-weight: 300;
+    margin-bottom: 16px;
+  }
+
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 40px 48px;
+    display: flex; justify-content: space-between; align-items: center;
+    max-width: 720px; margin: 0 auto;
+  }
+  footer .nav-logo { font-size: 16px; }
+  footer p { font-size: 13px; color: var(--text-muted); }
+  footer a { color: var(--text-secondary); text-decoration: none; font-size: 13px; transition: color 0.3s; }
+  footer a:hover { color: var(--accent); }
+  .footer-links { display: flex; gap: 24px; }
+
+  @media (max-width: 768px) {
+    nav { padding: 16px 24px; }
+    .nav-links { display: none; }
+    .legal-content { padding: 120px 24px 60px; }
+    footer { flex-direction: column; gap: 16px; text-align: center; padding: 40px 24px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">TruthStone <span>PM</span></a>
+  <div class="nav-links">
+    <a href="index.html#features">Features</a>
+    <a href="index.html#pricing">Pricing</a>
+  </div>
+</nav>
+
+<div class="legal-content">
+  <div class="section-label">Legal</div>
+  <h1>Terms of Service</h1>
+  <p class="updated">Last updated: May 11, 2026</p>
+
+  <h2>1. Acceptance of Terms</h2>
+  <p>By accessing or using the TruthStone PM service ("Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the Service. These Terms apply to all users of the Service, including property owners, tenants, and service providers.</p>
+
+  <h2>2. Description of Service</h2>
+  <p>TruthStone PM provides an AI-powered communication agent for property management. The Service facilitates messaging between property owners, tenants, and maintenance providers across SMS, Telegram, and email. The Service includes automated message handling, maintenance coordination, and owner reporting.</p>
+
+  <h2>3. User Accounts and Registration</h2>
+  <p>Property owners subscribe to the Service on behalf of their properties. Tenants and service providers are added to the system by the property owner or manager. By being added to and using the Service, all parties consent to receiving communications through the platform.</p>
+
+  <h2>4. SMS/Text Messaging Terms</h2>
+  <p>By using the Service, you consent to receiving SMS messages from TruthStone PM at the phone number provided. Messages relate to property management communications including maintenance requests, scheduling, and status updates. Message frequency varies. Message and data rates may apply. Reply STOP to opt out of SMS messages at any time. Reply HELP for support. Opting out of SMS may limit the Service's ability to communicate with you.</p>
+
+  <h2>5. Acceptable Use</h2>
+  <p>You agree to use the Service only for lawful property management communications. You may not use the Service to send spam, harassing messages, or any content that violates applicable laws. You are responsible for the accuracy of information you provide, including property details and contact information.</p>
+
+  <h2>6. AI-Generated Communications</h2>
+  <p>The Service uses artificial intelligence to generate and manage communications. While we strive for accuracy and professionalism, AI-generated messages may occasionally contain errors. TruthStone PM is not liable for decisions made based on AI-generated communications. Property owners should review important communications and maintain appropriate oversight of their properties.</p>
+
+  <h2>7. Pricing and Payment</h2>
+  <p>Service fees are billed monthly based on the number of units under management as described on our pricing page. Prices are subject to change with 30 days' written notice. Failure to pay may result in suspension or termination of the Service.</p>
+
+  <h2>8. Service Availability</h2>
+  <p>We strive to maintain 99.9% uptime for the Service. However, we do not guarantee uninterrupted availability. The Service may be temporarily unavailable due to maintenance, updates, or circumstances beyond our control. We are not liable for any losses resulting from service interruptions.</p>
+
+  <h2>9. Limitation of Liability</h2>
+  <p>TruthStone PM is a communication facilitation service and is not a licensed property management company. We are not liable for property damage, personal injury, or any other damages arising from maintenance issues, contractor performance, or property management decisions. Our total liability shall not exceed the fees paid by you in the preceding 12 months.</p>
+
+  <h2>10. Termination</h2>
+  <p>Either party may terminate the Service with 30 days' written notice. We reserve the right to terminate or suspend access immediately if you violate these Terms. Upon termination, we will retain your data for 90 days, after which it will be permanently deleted unless otherwise required by law.</p>
+
+  <h2>11. Governing Law</h2>
+  <p>These Terms are governed by the laws of the State of California. Any disputes shall be resolved in the courts of Los Angeles County, California.</p>
+
+  <h2>12. Changes to Terms</h2>
+  <p>We may update these Terms from time to time. We will notify active subscribers of material changes via email. Continued use of the Service after changes take effect constitutes acceptance of the revised Terms.</p>
+
+  <h2>13. Contact</h2>
+  <p>For questions about these Terms, contact us at alexander@truthstonepm.com.</p>
+</div>
+
+<footer>
+  <a href="index.html" class="nav-logo">TruthStone <span>PM</span></a>
+  <div class="footer-links">
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+  </div>
+  <p>&copy; 2026 TruthStone PM. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
